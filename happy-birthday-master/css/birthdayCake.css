@@ -1,28 +1,29 @@
-
 body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: '楷体';
+    font-family: 'Arial,sans-serif';
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
 #cake {
     display: block;
     position: relative;
-    left:50%;
+    left: 50%;
     margin-top: -10em;
     margin-bottom: 0;
     margin-left: -100px;
 
 }
 
-#isLike{
+#isLike {
     transition: all 1s;
 }
+
 /* ============================================== Candle
 */
 .bg {
@@ -110,7 +111,9 @@ html, body {
 /* ============================================== Animation Fire
 */
 @-webkit-keyframes fuego {
-    0%, 100% {
+
+    0%,
+    100% {
         background: rgba(254, 248, 97, 0.5);
         -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
         box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
@@ -128,7 +131,9 @@ html, body {
 }
 
 @keyframes fuego {
-    0%, 100% {
+
+    0%,
+    100% {
         background: rgba(254, 248, 97, 0.5);
         -webkit-box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
         box-shadow: 0 0 40px 10px rgba(248, 233, 209, 0.2);
@@ -169,6 +174,7 @@ html, body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -178,6 +184,7 @@ html, body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -185,8 +192,8 @@ html, body {
 
 .bg-bubbles {
     position: absolute;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -292,6 +299,7 @@ html, body {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     100% {
         -webkit-transform: translateY(-900px) rotate(600deg);
         transform: translateY(-900px) rotate(600deg);
@@ -303,6 +311,7 @@ html, body {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     100% {
         -webkit-transform: translateY(-900px) rotate(600deg);
         transform: translateY(-900px) rotate(600deg);
@@ -311,7 +320,7 @@ html, body {
 
 .happy {
     position: absolute;
-    opacity:0;
+    opacity: 0;
     width: 230px;
     height: 137px;
     overflow: hidden;
@@ -329,11 +338,13 @@ html, body {
         top: 45%;
         opacity: 0;
     }
+
     70% {
         position: absolute;
         top: 45%;
         opacity: 0;
     }
+
     100% {
         position: absolute;
         top: 49%;
@@ -347,11 +358,13 @@ html, body {
         top: 45%;
         opacity: 0;
     }
+
     70% {
         position: absolute;
         top: 45%;
         opacity: 0;
     }
+
     100% {
         position: absolute;
         top: 49%;
@@ -359,7 +372,8 @@ html, body {
     }
 }
 
-.button-style1, .button-style2 {
+.button-style1,
+.button-style2 {
     position: absolute;
     top: 40%;
     opacity: 1;
@@ -367,19 +381,21 @@ html, body {
 }
 
 .button-style1 {
-	position:absolute;
-	top:60%;
-    opacity:0;
+    position: absolute;
+    top: 60%;
+    opacity: 0;
 }
+
 .button-style2 {
-	position:absolute;
-    top:60%;
-    margin-left:-87px;
+    position: absolute;
+    top: 60%;
+    margin-left: -87px;
     left: 50%;
-    opacity:0;
+    opacity: 0;
 
 }
-.name{
+
+.name {
     font-weight: bold;
     position: absolute;
     text-align: center;
@@ -390,76 +406,89 @@ html, body {
     font-size: 32px;
     color: #fff;
 }
+
 @keyframes btn1 {
     0% {
         opacity: 0;
-        top:60%;
+        top: 60%;
     }
+
     70% {
         opacity: 0;
-        top:60%;
+        top: 60%;
     }
+
     100% {
         opacity: 1;
-        top:70%;
+        top: 70%;
     }
 }
 
 @-webkit-keyframes btn1 {
     0% {
         opacity: 0;
-        top:60%;
+        top: 60%;
     }
+
     70% {
         opacity: 0;
-        top:60%;
+        top: 60%;
     }
+
     100% {
         opacity: 1;
-        top:70%;
+        top: 70%;
     }
 }
 
 @keyframes btn2 {
     0% {
         opacity: 0;
-        top:60%;
+        top: 60%;
     }
+
     70% {
         opacity: 0;
-        top:70%;
+        top: 70%;
     }
+
     100% {
         opacity: 1;
-        top:85%;
+        top: 85%;
     }
 }
 
 @-webkit-keyframes btn2 {
     0% {
         opacity: 0;
-        top:60%;
+        top: 60%;
     }
+
     70% {
         opacity: 0;
-        top:70%;
+        top: 70%;
     }
+
     100% {
         opacity: 1;
-        top:85%;
+        top: 85%;
     }
 }
 
-.lk1, .lk2 {
+.lk1,
+.lk2 {
     text-decoration: none;
     font-family: Microsoft YaHei;
     color: #fff;
     transition: all 0.5s;
 }
-.no-like{
-    cursor:no-drop;
+
+.no-like {
+    cursor: no-drop;
 }
-.link1, .link2 {
+
+.link1,
+.link2 {
     width: 170px;
     height: 60px;
     border: 2px solid #fff;
@@ -475,7 +504,8 @@ html, body {
     cursor: help;
 }
 
-.bt1, .bt2 {
+.bt1,
+.bt2 {
     position: relative;
     top: 22%;
     vertical-align: middle;
