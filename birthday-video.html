@@ -7,43 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>birthday-video</title>
     <link rel="stylesheet" type="text/css" href="css/birthday_video.css">
+    <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="container">
             <div class="text">
-                生日快乐啦
-                
+                🎂
             </div>
         <video style="position: relative;
         width: 125%;
         height: 125%;
         left: -15%;
+        z-index: 1;
         "
-        controls=""
-        autoplay="">
-            <source src="https://upos-sz-mirrorhw.bilivideo.com/upgcxcode/86/97/81669786/81669786-1-208.mp4?e=ig8euxZM2rNcNbNj7bdVhwdlhbTjhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1655801669&gen=playurlv2&os=hwbv&oi=3073951711&trid=e8d534afca924d6dabac34e6db45121fT&mid=0&platform=html5&upsig=7a20fb0f182ba52ee4e8ae91cc090472&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform&bvc=vod&nettype=0&bw=267304&orderid=0,1&logo=80000000">
-        </video>
+        controls preload
+        >
+            <source src="media/birthday-video.mp4">
+        </video>            
         </div>
+            <div class="bubbles">
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+                <div class="bubble"></div>
+            </div>
     </div>
-        <a href="img.html" class="lk2">
-            <button>
-                不想看了
-            </button>
-        </a>
-    <div class="bubbles">
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-        <div class="bubble"></div>
-    </div>
+    <button type="button" onclick="javascript:window.location.href='BirthdayCake.html';">不想看惹</button>
 </body>
 
 </html>

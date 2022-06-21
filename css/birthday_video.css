@@ -79,10 +79,6 @@ body :-ms-input-placeholder {
     font-weight: 200;
 }
 
-.video {
-    z-index: 1;
-}
-
 @-webkit-keyframes square {
     0% {
         -webkit-transform: translateY(0);
