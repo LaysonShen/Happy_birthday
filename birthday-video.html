@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>birthday-video</title>
     <link rel="stylesheet" type="text/css" href="css/birthday_video.css">
-    <script src="http://api.html5media.info/1.1.8/html5media.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="ckplayer/css/ckplayer.css" />
+    <script type="text/javascript" src="ckplayer/js/ckplayer.js" charset="UTF-8"></script>
+    <script type="text/javascript">
+        //定义一个变量：videoObject，用来做为视频初始化配置
+        var videoObject = {
+            container: '.video', //“#”代表容器的ID，“.”或“”代表容器的class
+            video: 'media/birthday-video.mp4'//视频地址
+        };
+        var player = new ckplayer(videoObject);//初始化播放器
+    </script>
 </head>
 
 <body>
@@ -16,30 +25,20 @@
             <div class="text">
                 🎂
             </div>
-        <video style="position: relative;
-        width: 125%;
-        height: 125%;
-        left: -15%;
-        z-index: 1;
-        "
-        controls preload
-        >
-            <source src="media/birthday-video.mp4">
-            <source src="media/birthday-video.avi">
-        </video>            
+            <div class="video" style="width: 600px;height: 400px;">播放器容器</div>
         </div>
-            <div class="bubbles">
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-                <div class="bubble"></div>
-            </div>
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
     </div>
     <button type="button" onclick="javascript:window.location.href='BirthdayCake.html';">不想看惹</button>
 </body>
