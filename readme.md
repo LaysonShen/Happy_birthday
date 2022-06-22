@@ -7,3 +7,7 @@
 ## 参考项目
 * 引入了ckplayer<a herf="https://gitee.com/niandeng/ckplayer">项目地址</a>
 * 大部分源码引用了IcedSoul的<a herf="https://hub.fastgit.xyz/IcedSoul/tiny-heart">项目</a>
+## 哪里可以看
+* <a herf="shen_yuyang.gitee.io/happy-birthday">gitee pages</a>(无法播放视频,速度快)
+* <a herf="laysonshen.github.io/Happy-birthday">github pages</a>(可以播放视频,速度慢)
+* <a herf="happybirthdaymisstian.netlify.app">netlify</a>(可以播放视频,速度快,推荐)
