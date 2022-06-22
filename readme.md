@@ -9,5 +9,5 @@
 * 大部分源码引用了IcedSoul的<a herf="https://hub.fastgit.xyz/IcedSoul/tiny-heart">项目</a>
 ## 哪里可以看
 * [gitee pages](https://shen_yuyang.gitee.io/happy-birthday)(无法播放视频,速度快)
-* [github pages](htpps://laysonshen.github.io/Happy-birthday)(可以播放视频,速度慢)
+* [github pages](htpps://laysonshen.github.io/Happy_birthday)(可以播放视频,速度慢)
 * [netlify](https://happybirthdaymisstian.netlify.app)(可以播放视频,速度快,推荐)
