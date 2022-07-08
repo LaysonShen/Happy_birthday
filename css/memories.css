@@ -1260,8 +1260,8 @@
 .ly-imgbox31{
 	position: absolute;
 	bottom: 0;
-	width: 100%;
-	height: 70%;
+	width: 40%;
+	height: 28%;
 	border-radius: 8px;
 	opacity:0;
 	overflow: hidden;
@@ -1273,7 +1273,7 @@
 }
 .ly-img31{
 	position: absolute;
-	width: 100%;
+	width: 40%;
 	bottom: 0;
 }
 /*文本*/
@@ -1414,7 +1414,7 @@
 }
 .ly-img31{
 	position: absolute;
-	width: 100%;
+	width: 40%;
 	bottom: 0;
 }
 
@@ -1496,9 +1496,9 @@
 }
 .ly-img61{
 	position: absolute;
-	width: 100%;
+	width: 19%;
 	bottom: 0;
-	margin-bottom:-250px;
+	margin-bottom:0;
 }
 .ly-txt61 {
 	text-indent:2em;
